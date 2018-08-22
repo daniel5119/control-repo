@@ -5,4 +5,7 @@ message: "This node is using common data"
 puppet_enterprise::profile::master::code_manager_auto_configure: true
 puppet_enterprise::master::code_manager::authenticate_webhook: false
 puppet_enterprise::master::code_manager::manage_private_key: false
-puppet_enterprise::profile::puppetdb::java_args: {"Xmx": "512m", "Xms": "512m"}
+
+puppet_enterprise::profile::puppetdb::java_args: 
+Xmx: 512m 
+Xms: 512m 
