@@ -8,6 +8,7 @@ mod "puppetlabs/concat",      '2.2.1'
 mod "puppet/hiera",           '2.4.0'
 mod "npwalker/pe_code_manager_webhook",  '2.0.1'
 mod "npwalker/pe_metric_curl_cron_jobs", '4.0.0'
+mod 'martyewings-thundering_herd_resolver', '0.1.2'
 
 # Modules from Github using various references
 # Further examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -24,5 +25,3 @@ mod 'pltraining-rbac',
   :git    => 'https://github.com/puppetlabs/pltraining-rbac',
   :ref    => '9a823ff42810988f80a2b65738054a816620d972'
 
-mod 'support-tasks',
-  :git    => 'git@github.com:puppetlabs/support-tasks.git'
