@@ -28,3 +28,4 @@ mod 'pltraining-rbac',
 
 mod 'support-tasks',
   :git    => 'https://github.com/daniel5119/support-tasks'
+  :branch => 'production'
